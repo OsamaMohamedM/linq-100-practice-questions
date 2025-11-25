@@ -1,6 +1,4 @@
-﻿
-
-using LinqQuestion;
+﻿using LinqQuestion;
 
 public class Book
 {
@@ -28,5 +26,4 @@ public class Book
                $"Rating: {Rating}/5, " +
                $"Copies In Stock: {CopiesInStock}";
     }
-
 }

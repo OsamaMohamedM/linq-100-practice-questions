@@ -1,4 +1,5 @@
-﻿using  LinqQuestion;
+﻿using LinqQuestion;
+
 public class Customer : IComparable<Customer>
 {
     public string? Id { get; set; }
