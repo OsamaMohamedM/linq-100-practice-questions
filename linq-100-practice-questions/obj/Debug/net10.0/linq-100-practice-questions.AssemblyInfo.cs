@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("linq-100-practice-questions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59467cbea8e7b468d8139dc380382af85d7eb2c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15a7174cd2bc7c1987bb5c3042548f632836686e")]
 [assembly: System.Reflection.AssemblyProductAttribute("linq-100-practice-questions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("linq-100-practice-questions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
