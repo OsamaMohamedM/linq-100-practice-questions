@@ -118,6 +118,3 @@ The 100 LINQ practice questions are available in the `linq-100-practice-question
 - **Books & Library (Q71-Q80)**
 - **Employees & Departments (Q81-Q90)**
 - **Projects & Assignments (Q91-Q100)**
-## Contribution
-This project was created with the assistance of the Gemini AI code assistant.
-Happy coding!
