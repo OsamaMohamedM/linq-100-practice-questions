@@ -1,0 +1,14 @@
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\bin\Debug\net10.0\linq-100-practice-questions.exe
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\bin\Debug\net10.0\linq-100-practice-questions.deps.json
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\bin\Debug\net10.0\linq-100-practice-questions.runtimeconfig.json
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\bin\Debug\net10.0\linq-100-practice-questions.dll
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\bin\Debug\net10.0\linq-100-practice-questions.pdb
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net10.0\linq-100-practice-questions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net10.0\linq-100-practice-questions.AssemblyInfoInputs.cache
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net10.0\linq-100-practice-questions.AssemblyInfo.cs
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net10.0\linq-100-practice-questions.csproj.CoreCompileInputs.cache
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net10.0\linq-100-practice-questions.dll
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net10.0\refint\linq-100-practice-questions.dll
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net10.0\linq-100-practice-questions.pdb
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net10.0\linq-100-practice-questions.genruntimeconfig.cache
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net10.0\ref\linq-100-practice-questions.dll
