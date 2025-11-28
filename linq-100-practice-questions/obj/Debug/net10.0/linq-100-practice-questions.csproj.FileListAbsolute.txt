@@ -12,3 +12,4 @@ C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net
 C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net10.0\linq-100-practice-questions.pdb
 C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net10.0\linq-100-practice-questions.genruntimeconfig.cache
 C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net10.0\ref\linq-100-practice-questions.dll
+C:\Users\DELL\GitHubRepo\LinqQuestions\linq-100-practice-questions\obj\Debug\net10.0\linq-100-practice-questions.sourcelink.json
