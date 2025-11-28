@@ -27,5 +27,4 @@ public class Project
                $"Priority: {Priority}, " +
                $"Completion: {CompletionPercentage}%";
     }
-
 }

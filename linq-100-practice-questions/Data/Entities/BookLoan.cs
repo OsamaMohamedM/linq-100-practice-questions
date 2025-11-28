@@ -1,6 +1,5 @@
-﻿namespace ConsoleApp1322;
+﻿// Relationship Entity 2: BookLoan (Relationship between Employee and Book)
 
-// Relationship Entity 2: BookLoan (Relationship between Employee and Book)
 public class BookLoan
 {
     public int Id { get; set; }
@@ -23,5 +22,4 @@ public class BookLoan
                $"Returned: {IsReturned}, " +
                $"Late Fee: {(LateFee.HasValue ? LateFee.Value.ToString("C") : "None")}";
     }
-
 }

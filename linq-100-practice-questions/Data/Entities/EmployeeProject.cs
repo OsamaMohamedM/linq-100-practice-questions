@@ -21,5 +21,4 @@ public class EmployeeProject
                $"Assigned Date: {AssignedDate:yyyy-MM-dd}, " +
                $"Active: {IsActive}";
     }
-
 }
