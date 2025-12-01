@@ -6,7 +6,7 @@ namespace LinqQuestion
     {
         private static void Main(string[] args)
         {
-            Filtering_Joins.Filtering_Joins_07();
+            Advanced_Grouping_Calculations.Question1();
         }
     }
 }
