@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("linq-100-practice-questions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae8ca341eb8e82402f4f5314acce75516ca308ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56e5a9bdc49be6b191d87998d19d69f4198d90c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("linq-100-practice-questions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("linq-100-practice-questions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

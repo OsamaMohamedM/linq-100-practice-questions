@@ -12,4 +12,3 @@ public enum ProjectCategory
     EnterpriseSoftware,
     IoT
 }
-
