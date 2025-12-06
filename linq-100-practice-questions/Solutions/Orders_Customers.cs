@@ -84,5 +84,47 @@ namespace linqQuestions.Solutions
                  }
                  ).Where(p => p.productPrice > 10000);
         }
+
+        public static Product? Question11()
+        {
+            return ListGenerator.OrderList
+                    .SelectMany(o => o.Products)
+                    .GroupBy(p => p.Id)
+                    .OrderByDescending(g => g.Count())
+                    .Select(g => g.First())
+                    .FirstOrDefault();
+        }
+
+        public static IEnumerable<Customer> Question12()
+        {
+            return ListGenerator.CustomerList
+         .Where(c => c.Orders
+             .SelectMany(o => o.Products)
+             .GroupBy(p => p.Id)
+             .Any(g => g.Count() > 1)
+         );
+        }
+
+        public static int Question13()
+        {
+            return ListGenerator.OrderList.GroupBy(o => o.Date.Month).OrderByDescending(g => g.Count()).Select(g => g.Key).First();
+        }
+
+        public static double Question14()
+        {
+            return ListGenerator.OrderList.Average(o => o.Products.Count);
+        }
+
+        public static IEnumerable<object> Question15()
+        {
+            return ListGenerator.CustomerList
+                .Where(c => c.Orders.Any())
+                .Select(c => new
+                {
+                    Customer = c,
+                    EarliestOrder = c.Orders.Min(o => o.Date),
+                    LatestOrder = c.Orders.Max(o => o.Date)
+                });
+        }
     }
 }
