@@ -126,5 +126,58 @@ namespace linqQuestions.Solutions
                     LatestOrder = c.Orders.Max(o => o.Date)
                 });
         }
+
+        public static IEnumerable<Order> Question16()
+        {
+            return ListGenerator.OrderList
+                .Where(o => o.Date.DayOfWeek == DayOfWeek.Saturday || o.Date.DayOfWeek == DayOfWeek.Sunday);
+        }
+
+        public static IEnumerable<Customer> Question17()
+        {
+            return ListGenerator.CustomerList
+                .Where(c => c.Orders.Any(c => c.Date.Year == 2023) && !c.Orders.Any(c => c.Date.Year == 2024));
+        }
+
+        public static IEnumerable<object> Question18()
+        {
+            return ListGenerator.CustomerList
+                .Select(c => new
+                {
+                    Customer = c,
+                    AverageOrderTotal = c.Orders.Any() ? c.Orders.Average(o => o.Total) : 0
+                });
+        }
+
+        public static IEnumerable<object> Question19()
+        {
+            return ListGenerator.OrderList
+                .SelectMany(o => o.Products)
+                .GroupBy(p => p.Category)
+                .Select(g => new
+                {
+                    Category = g.Key,
+                    Top3Products = g.GroupBy(p => p.Id)
+                                    .Select(pg => new
+                                    {
+                                        Product = pg.First(),
+                                        TotalSales = pg.Count() * pg.First().UnitPrice
+                                    })
+                                    .OrderByDescending(p => p.TotalSales)
+                                    .Take(3)
+                });
+        }
+
+        public static IEnumerable<object> Question20()
+        {
+            return ListGenerator.OrderList
+                .SelectMany(o => o.Products)
+                .GroupBy(p => p.Category)
+                .Select(g => new
+                {
+                    Category = g.Key,
+                    TotalRevenue = g.Sum(p => p.UnitPrice)
+                });
+        }
     }
 }
